@@ -33,12 +33,16 @@
   
 ### `Navigate`
 - Navigate: Sử dụng để chuyển đến 1 trang nào đó thôi
+![image](https://github.com/user-attachments/assets/bc59e3cc-1bd1-40ba-8546-76a7e42d63d4)
 
 # Nested Routes
-- Để tạo ra các route con lồng nhau. Ví dụ cụ thể phía dưới
-  
+- Để tạo ra các route con lồng nhau
+![image](https://github.com/user-attachments/assets/46aab997-6c63-4f89-9364-aa7e261e90f5)
+
 # Index Routes
-- Để hiển thị các component con ra ngoài component cha. Ví dụ phía dưới
+- Để hiển thị các component con ra ngoài component cha
+![image](https://github.com/user-attachments/assets/06949c40-e137-4df1-b164-fe9a7da08328)
+- Như ở đây muốn hiển thị BlogAll ra ngoài route Blog thì ta gán index như thế này (mặc định thì nó mang giá trị là true)
 
 # Dynamic routes
 - Tạo ra các routes động. Ví dụ phía dưới
