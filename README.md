@@ -27,10 +27,15 @@
   
 ### `Outlet`
 - Dùng để xác định vị trí hiển thị componet con ở trong route
+- Ví dụ ở trang này:
+![image](https://github.com/user-attachments/assets/c4ab72e0-3c65-4114-a013-5fef73bb5d5c)
+- Cả trang được bọc bởi route LayoutDefault như ở các hình ảnh trước, và ta cần phải sử dụng Outlet để xác định được vị trí mà muốn hiển thị **nội dung** của các component mà nó bọc lại thì phải cần Outlet
+![image](https://github.com/user-attachments/assets/8ab9e2a1-731e-4939-b63f-19eb3234b42a)
   
 ### `NavLink`
 - Thằng này cũng giống như thẻ Link, nhưng khác ở chỗ nếu Link trùng với NavLink thì nó sẽ tự động thêm class Active (cái này thường dùng để CSS màu khác cho dễ nè)
-  
+![image](https://github.com/user-attachments/assets/7127b484-7fee-4fce-b71f-c7724abe2f1c)
+
 ### `Navigate`
 - Navigate: Sử dụng để chuyển đến 1 trang nào đó thôi
 ![image](https://github.com/user-attachments/assets/bc59e3cc-1bd1-40ba-8546-76a7e42d63d4)
