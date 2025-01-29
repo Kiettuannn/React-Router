@@ -11,7 +11,7 @@ Trang blog: https://domain.com/blog
 
 
 ### `Các components`
-## BrowserRouter
+# BrowserRouter
 - Để kết nối ứng dụng của bạn với URL của trình duyệt thì chúng ta phải import BrowserRouter và bọc nó bên ngoài app (component App)
 
 ### `npm run build`
