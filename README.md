@@ -1,18 +1,14 @@
-# Getting Started with Create React App
+![image](https://github.com/user-attachments/assets/bfa9a3e8-b24e-4328-a9f5-f0c0c5bc685f)# React Router
+- React router là một thư viện viết bằng JS, dùng để quản lý routing trong các trang web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `CÁCH SỬ DỤNG`
+**npm install reaact-router-dom**
+- Có thể đọc thêm doc ở đây:
+- Trang chủ: https://domain.com
+Trang liên hệ: https://domain.com/contact
+Trang blog: https://domain.com/blog
+![image](https://github.com/user-attachments/assets/485ead68-9025-4160-8d23-12d95dc1a947)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
