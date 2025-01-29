@@ -5,9 +5,8 @@
 **Câu lệnh npm install reaact-router-dom**
 - Có thể đọc thêm doc ở đây:
 - Trang chủ: https://domain.com
-Trang liên hệ: https://domain.com/contact
-Trang blog: https://domain.com/blog
-![image](https://github.com/user-attachments/assets/485ead68-9025-4160-8d23-12d95dc1a947)
+- Trang liên hệ: https://domain.com/contact
+- Trang blog: https://domain.com/blog
 
 # Các components 
 ### `BrowserRouter`
