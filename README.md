@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7f8c3fdb-3843-4e6d-820a-8a3cf4fc43e3)# React Router
+# React Router
 - React router là một thư viện viết bằng JS, dùng để quản lý routing trong các trang web
 
 ### `CÁCH SỬ DỤNG`
@@ -70,7 +70,7 @@
 
 # Các Hook của React Router
 ### `useParams`:
-- Dùng để lấy được tham số trên param, ở hình ảnh pahafn Dynamic routes đã có sử dụng rồi đó
+- Dùng để lấy được tham số trên param, ở hình ảnh phần Dynamic routes đã có sử dụng rồi đó
   
 ### `useNavigate`:
 - Dùng để điều hướng đến 1 trang khác hoặc trở về trang trước đó đã truy cập
