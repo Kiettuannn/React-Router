@@ -2,7 +2,7 @@
 - React router là một thư viện viết bằng JS, dùng để quản lý routing trong các trang web
 
 ### `CÁCH SỬ DỤNG`
-**npm install reaact-router-dom**
+**Câu lệnh npm install reaact-router-dom**
 - Có thể đọc thêm doc ở đây:
 - Trang chủ: https://domain.com
 Trang liên hệ: https://domain.com/contact
@@ -10,10 +10,9 @@ Trang blog: https://domain.com/blog
 ![image](https://github.com/user-attachments/assets/485ead68-9025-4160-8d23-12d95dc1a947)
 
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Các components`
+## BrowserRouter
+- Để kết nối ứng dụng của bạn với URL của trình duyệt thì chúng ta phải import BrowserRouter và bọc nó bên ngoài app (component App)
 
 ### `npm run build`
 
