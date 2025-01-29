@@ -1,4 +1,4 @@
-# React Router
+![image](https://github.com/user-attachments/assets/7f8c3fdb-3843-4e6d-820a-8a3cf4fc43e3)# React Router
 - React router là một thư viện viết bằng JS, dùng để quản lý routing trong các trang web
 
 ### `CÁCH SỬ DỤNG`
@@ -50,7 +50,23 @@
 - Như ở đây muốn hiển thị BlogAll ra ngoài route Blog thì ta gán index như thế này (mặc định thì nó mang giá trị là true)
 
 # Dynamic routes
-- Tạo ra các routes động. Ví dụ phía dưới
+- Tạo ra các routes động.
+- Ví dụ như
+ ![image](https://github.com/user-attachments/assets/771b0c2e-c688-493e-9a84-bbfd48b337a1)
+- Nếu như muốn truy cập vào trang tin tức này, thì cần phải sang trang đó, thì khi đó ta cần phải route đến, nhưng nếu không dùng route động thì sẽ set path và element bằng tay => Không tối ưu
+  
+**-Cách sử dụng route động:**
+- Đầu tiên ta cần phải tạo ra 1 route Detail để hiển thị chi tiết nội dung bài viết đó:
+  ![image](https://github.com/user-attachments/assets/7638eb2c-3b7b-48ee-a112-7cb6b9c4ccb6)
+  - Đặt biệt ở đây path ta đặt là gì cũng được không nhất thiết là ":id", sở dĩ đặt tên như vậy thì dễ hiểu hơn thôi
+    
+**-Tiếp theo**:  Ở trang AllBlog, ta sẽ tạo ra danh sách cái bài viết đó, và khi nhấn vào nó sẽ link tới 1 route chứa id của bài viết đó
+![image](https://github.com/user-attachments/assets/6d116e01-4818-4951-ab4d-0cadd207cd2e)
+
+**-Tiếp nữa:** Ở trang detail, ta cũng sẽ fetch Api nhưng với cách thức sau
+![image](https://github.com/user-attachments/assets/5c05022e-343a-4ae1-a52f-3b6e37b15950)
+
+- Ta đã truyền vào đường link một params.id, cái chấm tới id chính là cái tên mà mình đặt ở path hồi nảy
 
 # Các Hook của React Router
 ### `useParams`:
