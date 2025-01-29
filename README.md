@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/bfa9a3e8-b24e-4328-a9f5-f0c0c5bc685f)# React Router
+# React Router
 - React router là một thư viện viết bằng JS, dùng để quản lý routing trong các trang web
 
 ### `CÁCH SỬ DỤNG`
@@ -14,14 +14,15 @@ Trang blog: https://domain.com/blog
 - Để kết nối ứng dụng của bạn với URL của trình duyệt thì chúng ta phải import BrowserRouter và bọc nó bên ngoài app (component App)
 - ![image](https://github.com/user-attachments/assets/2a5fd5a7-a999-48f0-a003-368da7790cb7)
 
-
 ### `Routes`
 - Cung cấp các tuyến đường để điều hướng các thành phần của ứng dụng React. Dùng nó bọc bên ngoài các route
 - Kiểu như các ul chứa các li (route)
+![image](https://github.com/user-attachments/assets/aa3ea0aa-caae-4d73-b433-1453018bbdcb)
 
 ### `Route`
 - Để route đến 1 component cụ thể nào đó
-  
+![image](https://github.com/user-attachments/assets/1b680695-7980-4590-b949-dcc4833448d2)
+
 ### `Link`
 - Cho phép link sang trang khác nhưng không cần phải load lại trang như thẻ a
   
