@@ -70,19 +70,31 @@
 
 # Các Hook của React Router
 ### `useParams`:
-- Dùng để lấy được tham số trên param
+- Dùng để lấy được tham số trên param, ở hình ảnh pahafn Dynamic routes đã có sử dụng rồi đó
   
 ### `useNavigate`:
 - Dùng để điều hướng đến 1 trang khác hoặc trở về trang trước đó đã truy cập
+- Cái này cũng giống như nút trở về của trình duyệt vậy
+![image](https://github.com/user-attachments/assets/77bc8c4a-b614-427f-a54b-231bd8ecb495)
+- Ta truyền vào tham số -1 cho navigate để nó lùi lại 1 trang, nếu như là -2 thì là quay về 2, còn 1 thì tiến tới 1 đơn giản vậy thôi
 
 # Protected routes
 - Cái này giống như để phân quyền thôi, có 2 thành phần public và private
+- Cái này nó kh có cấu trúc gì đặt biệt, quan trọng là logic mình tự tạo ra
+![image](https://github.com/user-attachments/assets/07ae37de-8244-4c9d-929b-009aef5bb221)
 
 # Route Objects
 - Cái này để gom danh sách route lại thành 1 object để gọn hơn, không phải khai báo 1 đống trong file app nữa, ví dụ ở dưới
+- Như ở các VD trên thì ta thấy các route gom 1 cục ở trong file App, vậy nên ta cần tách nó ra riêng tạo thành 1 objects
+- **Bước 1:** Tạo 1 folder route trong thư mục src, trong đó tạo ra 1 file index chứa 1 object các route, cái nào chứa các route con thì thêm 1 key là children để chứa các route con đó, còn như hầu hết đều có 2 key là path và element
+  ![image](https://github.com/user-attachments/assets/9308676f-38dd-41e5-8e83-13ccefa2c069)
+  
+- **Bước 2**: Tạo ra 1 folder chứa AllRoute
+![image](https://github.com/user-attachments/assets/8180adcc-7c69-4abd-ab67-302316ce7aec)
+- Ta sử dụng useRoutes truyền vào danh sách routes đã tạo trước đó, hàm này sẽ có nhiệm vụ tách các routes này thành các element như ở phía trên vậy, đơn giản là vậy thôi, "chuyển object thành element"
 
-# Ví dụ tổng quát hết các kiến thức của React Router
-- 
+# Và đó là hết về React Route, còn nhiều các hook nữa, nhưng trên đây chính là những cái hay gặp nhất
+ 
 
 
 
