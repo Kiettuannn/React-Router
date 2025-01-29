@@ -10,8 +10,8 @@ Trang blog: https://domain.com/blog
 ![image](https://github.com/user-attachments/assets/485ead68-9025-4160-8d23-12d95dc1a947)
 
 
-### `Các components`
-# BrowserRouter
+# Các components 
+### `BrowserRouter`
 - Để kết nối ứng dụng của bạn với URL của trình duyệt thì chúng ta phải import BrowserRouter và bọc nó bên ngoài app (component App)
 
 ### `npm run build`
