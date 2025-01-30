@@ -2,7 +2,7 @@
 - React router là một thư viện viết bằng JS, dùng để quản lý routing trong các trang web
 
 ### `CÁCH SỬ DỤNG`
-**Câu lệnh npm install reaact-router-dom**
+**Câu lệnh npm install react-router-dom**
 - Có thể đọc thêm doc ở đây:
 - Trang chủ: https://domain.com
 - Trang liên hệ: https://domain.com/contact
